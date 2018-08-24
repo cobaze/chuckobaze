@@ -1,0 +1,1383 @@
+/*-----------------------------------------------------------------------------
+Prototype Style Sheet (empty commented stylesheet)
+
+version:   1.0
+author:    Chuck Obaze
+email:     obazechuck@gmail.com
+website:   http://cobadesign.com
+-----------------------------------------------------------------------------*/
+/* =imports
+-----------------------------------------------------------------------------*/
+/* START FONT FAMILY*/
+/* END FONT FAMILY*/
+/* =Fonts
+-----------------------------------------------------------------------------*/
+/* =SASS Variables
+-----------------------------------------------------------------------------*/
+/* line 30, ../sass/project.scss */
+div#home, div#phil, div#process, div#expertise, div#projects, div#about, div#resume, div#contact-me, section.nipost-first-container {
+  margin: 0 auto;
+  max-width: 135em;
+  width: 100%;
+  height: 96em;
+  clear: both;
+  padding-top: 7%;
+  box-sizing: border-box;
+}
+
+/* line 40, ../sass/project.scss */
+section.home-container, section.phil-container, section.process-container, section.expertise-container, section.project-container, section.about-container, section#resume-fourth-container, section#contact-container {
+  width: 100%;
+}
+
+/* line 44, ../sass/project.scss */
+div#phil h2, div#process h2, div#expertise h2, div#projects h2, div#about h2, section.nipost-first-container h2, section.nipost-first-container h3 {
+  text-align: center;
+  margin-bottom: 2%;
+  color: #414042;
+  font-size: 4.5em;
+  font-weight: 300;
+}
+
+/* line 52, ../sass/project.scss */
+a.social-one {
+  width: 4em;
+  height: 4em;
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  background-size: 6em;
+  background-repeat: no-repeat;
+  float: left;
+  box-sizing: border-box;
+}
+
+/* line 65, ../sass/project.scss */
+div.dwn-pdf, div.skill-info {
+  float: left;
+  width: 100%;
+  max-width: 33em;
+  box-sizing: border-box;
+  margin-right: 1em;
+}
+
+/* line 73, ../sass/project.scss */
+div.dwn-pdf a:hover, div.dwn-pdf a:focus, button:hover, button:focus {
+  color: #f0555a;
+  background-color: #ffffff;
+  border: solid #f0555a 0.125em;
+}
+
+/* line 79, ../sass/project.scss */
+div.skill-info ul li, div.education ul li {
+  background-image: url(../imgs/bullet.png);
+  background-repeat: no-repeat;
+  list-style: none;
+  background-position: center left;
+  background-size: 0.9em;
+  font-size: 1.7em;
+  line-height: 1.5em;
+  padding-left: 1.5em;
+}
+
+/* =Remember Order Of Styling Links
+-----------------------------------------------------------------------------*/
+/* line 124, ../sass/project.scss */
+a:link, a:visited, a:hover, a:focus, a:active
+html {
+  font-size: 10px;
+}
+
+/* line 128, ../sass/project.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 133, ../sass/project.scss */
+hr {
+  height: 3px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  width: 1.5em;
+  border: 0;
+}
+
+/* line 141, ../sass/project.scss */
+body {
+  font-size: 10px;
+  /*font-family: $helvetica;*/
+  font-family: 'Exo 2', sans-serif;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 150, ../sass/project.scss */
+#main-container {
+  width: 100%;
+}
+
+/* line 154, ../sass/project.scss */
+header.main-header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 2em 0 2em 0;
+}
+/* line 162, ../sass/project.scss */
+header.main-header img {
+  float: left;
+  max-width: 4em;
+  width: 100%;
+  padding-left: 2%;
+}
+
+/* line 170, ../sass/project.scss */
+.active-link-style {
+  border-bottom: solid #82cec4 0.3em;
+}
+
+/* line 174, ../sass/project.scss */
+nav.main-nav {
+  float: right;
+  padding-right: 2%;
+  position: relative;
+  top: 1.3em;
+}
+/* line 180, ../sass/project.scss */
+nav.main-nav ul {
+  clear: both;
+  height: 2em;
+  padding: 0;
+  margin: 0;
+}
+/* line 187, ../sass/project.scss */
+nav.main-nav ul li {
+  list-style: none;
+  float: left;
+  margin-right: 2em;
+  display: inline;
+}
+/* line 193, ../sass/project.scss */
+nav.main-nav ul li a {
+  text-decoration: none;
+  color: #414042;
+  font-size: 1.7em;
+  font-weight: bold;
+  /*&:visited{
+  	border-bottom: solid $red-color .3em;
+  }*/
+}
+/* line 203, ../sass/project.scss */
+nav.main-nav ul li a:hover, nav.main-nav ul li a:focus {
+  border-bottom: solid #82cec4 0.3em;
+}
+
+/* line 211, ../sass/project.scss */
+li.contact-nav {
+  margin-right: 0em !important;
+}
+
+/* START STYLING INDEX PAGE
+-----------------------------------------------------------------------------*/
+/* START STYLING SECTION HOME AND HOME-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* line 221, ../sass/project.scss */
+section.home-container {
+  background-image: url(../imgs/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 96em;
+  clear: both;
+  width: 100%;
+}
+
+/* line 231, ../sass/project.scss */
+div#home {
+  max-width: 135em;
+  padding-top: 10%;
+}
+
+/* line 237, ../sass/project.scss */
+div.home-contents {
+  height: 81em;
+  width: 100%;
+  max-width: 103em;
+  margin: 0 auto;
+  margin-top: 1%;
+}
+/* line 244, ../sass/project.scss */
+div.home-contents h1 {
+  width: 100%;
+  max-width: 22em;
+  color: #ffffff;
+  font-size: 3em;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 200;
+  line-height: 1.5em;
+}
+/* line 255, ../sass/project.scss */
+div.home-contents img {
+  margin: 0 auto;
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+/* line 262, ../sass/project.scss */
+div.home-contents a {
+  max-width: 6em;
+  height: 6em;
+  max-height: 100%;
+  width: 100%;
+  display: block;
+  position: relative;
+  top: 17%;
+  margin: 0 auto;
+  background-image: url(../imgs/dwn-btn-white.png);
+  background-size: 6em;
+  background-repeat: no-repeat;
+}
+/* line 275, ../sass/project.scss */
+div.home-contents a:hover, div.home-contents a:focus {
+  background-image: url(../imgs/dwn-btn.png);
+}
+
+/* END SECTION HOME AND HOME-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* START STYLING SECTION PHIL AND PHIL-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* line 288, ../sass/project.scss */
+div.phil-bg {
+  height: 150em;
+  width: 100%;
+  position: fixed;
+  background-image: url(../imgs/phil-bg.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  top: 0em;
+  left: 0;
+}
+
+/* line 302, ../sass/project.scss */
+section.phil-container {
+  height: 50em;
+}
+
+/* line 307, ../sass/project.scss */
+div#phil {
+  height: 50em;
+  padding-top: 15em;
+  padding-bottom: 15em;
+  max-width: 192em;
+}
+/* line 314, ../sass/project.scss */
+div#phil h2 {
+  color: #ffffff;
+}
+/* line 319, ../sass/project.scss */
+div#phil p {
+  font-size: 2.5em;
+  font-weight: 200;
+  line-height: 1.5em;
+  color: #ffffff;
+  width: 37em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 331, ../sass/project.scss */
+section.process-container {
+  height: 70em;
+  background-color: #fafafa;
+}
+
+/* line 338, ../sass/project.scss */
+div#process {
+  height: 70em;
+  padding-top: 15em;
+  max-width: 192em;
+  margin: 0 auto;
+}
+
+/* line 351, ../sass/project.scss */
+div.icon-holder {
+  height: 30em;
+  max-width: 85em;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 358, ../sass/project.scss */
+div.icon {
+  float: left;
+  width: auto;
+  margin: 3em;
+}
+/* line 363, ../sass/project.scss */
+div.icon img {
+  width: 15em;
+  margin-bottom: 3.5em;
+}
+/* line 368, ../sass/project.scss */
+div.icon p {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #414042;
+  text-align: center;
+}
+
+/* line 377, ../sass/project.scss */
+section.expertise-container {
+  height: 70em;
+  background-color: #fafafa;
+}
+
+/* line 384, ../sass/project.scss */
+div#expertise {
+  height: 70em;
+  padding-top: 15em;
+  margin: 0 auto;
+  max-width: 195em;
+}
+
+/* line 397, ../sass/project.scss */
+div.icon-holder-one {
+  height: 29em;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*div.icon-holder-two{
+	height: 29em;
+	max-width: 80em;
+	width: 100%;
+	margin: 0 auto;
+}*/
+/* line 410, ../sass/project.scss */
+div.ex-icon {
+  float: left;
+  width: auto;
+  margin: 3em;
+}
+/* line 415, ../sass/project.scss */
+div.ex-icon img {
+  width: 15em;
+  margin: 0 auto;
+  display: block;
+}
+/* line 421, ../sass/project.scss */
+div.ex-icon p {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #414042;
+  text-align: center;
+  width: 13em;
+  margin-top: 1em;
+}
+/* line 430, ../sass/project.scss */
+div.ex-icon p span {
+  font-size: 0.8em;
+  font-weight: 200;
+}
+
+/* END STYLING SECTION PHIL AND PHIL-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* START SECTION PROJECTS AND PROJECT-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* line 444, ../sass/project.scss */
+section.project-container {
+  height: 92em;
+  background-color: #ffffff;
+}
+
+/* line 451, ../sass/project.scss */
+div#projects {
+  height: 92em;
+  padding-top: 15em;
+  max-width: 192em;
+}
+
+/* line 463, ../sass/project.scss */
+div.port-item {
+  width: 100%;
+  max-width: 47.88em;
+  height: 34em;
+  float: right;
+  overflow: hidden;
+}
+/* line 471, ../sass/project.scss */
+div.port-item a > img {
+  width: 100%;
+  max-width: 48.5em;
+}
+
+/* line 481, ../sass/project.scss */
+div#nipost a > img {
+  width: 100%;
+  max-width: 48.5em;
+}
+
+/* END SECTION PROJECTS AND PROJECT-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* END STYLING INDEX PAGE
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+/* START STYLING ABOUT PAGE
+-----------------------------------------------------------------------------*/
+/* START ABOUT CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* line 506, ../sass/project.scss */
+section.about-container {
+  height: 90em;
+}
+
+/* line 511, ../sass/project.scss */
+div#about {
+  height: 90em;
+  padding-top: 12%;
+}
+/* line 517, ../sass/project.scss */
+div#about h2 {
+  color: #414042;
+}
+/* line 522, ../sass/project.scss */
+div#about p {
+  font-size: 2.5em;
+  line-height: 1.6em;
+  color: gray;
+  font-weight: 300;
+  width: 100%;
+  max-width: 38em;
+  float: left;
+  margin-top: 5%;
+}
+/* line 533, ../sass/project.scss */
+div#about p a {
+  text-decoration: none;
+  font-size: 1em;
+  color: white;
+  color: #414042;
+  font-weight: bold;
+}
+/* line 540, ../sass/project.scss */
+div#about p a:hover, div#about p a:focus {
+  color: gray;
+}
+
+/* line 547, ../sass/project.scss */
+div.img-holder {
+  width: auto;
+  display: block;
+  float: right;
+}
+/* line 552, ../sass/project.scss */
+div.img-holder > img {
+  width: 100%;
+  max-width: 35em;
+  margin-bottom: 5%;
+}
+
+/* line 561, ../sass/project.scss */
+div.social {
+  width: 100%;
+  max-width: 4em;
+  height: 4em;
+  margin: 0 auto;
+}
+
+/* line 568, ../sass/project.scss */
+a.social-one {
+  background-image: url(../imgs/in.png);
+  background-size: 4em;
+}
+/* line 573, ../sass/project.scss */
+a.social-one:hover, a.social-one:focus {
+  background-image: url(../imgs/in-white.png);
+}
+
+/* END SECTION ABOUT AND ABOUT-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* START SECTION RESUME AND RESUME-FOURTH-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* line 586, ../sass/project.scss */
+section#resume-fourth-container {
+  clear: both;
+  height: 233em;
+}
+
+/* line 592, ../sass/project.scss */
+div#resume {
+  max-width: 112.5em;
+  padding-top: 10%;
+  height: 233em;
+}
+
+/* line 599, ../sass/project.scss */
+div.dwn-pdf {
+  margin-bottom: 4em;
+}
+/* line 603, ../sass/project.scss */
+div.dwn-pdf a {
+  text-decoration: none;
+  padding: 1.9em 0 0 1.5em;
+  font-size: 2em;
+  font-weight: 600;
+  text-align: left;
+  color: #ffffff;
+  background-color: #82cec4;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: block;
+  background-image: url(../imgs/pdf-btn-white.png);
+  background-repeat: no-repeat;
+  background-size: 2em;
+  background-position: 13em 1.1em;
+  height: 5em;
+}
+/* line 620, ../sass/project.scss */
+div.dwn-pdf a:hover, div.dwn-pdf a:focus {
+  background-image: url(../imgs/pdf-btn-red.png);
+}
+
+/* line 628, ../sass/project.scss */
+div.skill-info {
+  height: 153em;
+  background-color: #efefef;
+  padding: 6em 3.5em 0 3.5em;
+}
+/* line 634, ../sass/project.scss */
+div.skill-info h3 {
+  font-size: 2.5em;
+  color: #f0555a;
+  margin-bottom: 3em;
+  text-align: center;
+}
+/* line 641, ../sass/project.scss */
+div.skill-info h4 {
+  font-size: 2em;
+}
+/* line 645, ../sass/project.scss */
+div.skill-info hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-right: 1em;
+  border: solid 0.2em #f0555a;
+  width: 5.5em;
+}
+/* line 654, ../sass/project.scss */
+div.skill-info ul {
+  margin-bottom: 4em;
+}
+
+/* line 664, ../sass/project.scss */
+div.resume-info {
+  float: right;
+  max-width: 76em;
+  width: 100%;
+}
+
+/* line 670, ../sass/project.scss */
+div.education {
+  color: #414042;
+  background-color: #efefef;
+  padding: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  max-width: 69em;
+}
+/* line 678, ../sass/project.scss */
+div.education h3 {
+  font-size: 2.5em;
+  color: #f0555a;
+  margin-bottom: 1em;
+}
+/* line 684, ../sass/project.scss */
+div.education h4 {
+  font-size: 2em;
+  margin-bottom: .5em;
+}
+/* line 688, ../sass/project.scss */
+div.education h4 span {
+  font-weight: 300;
+}
+/* line 693, ../sass/project.scss */
+div.education p {
+  font-size: 1.7em;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+}
+/* line 699, ../sass/project.scss */
+div.education ul {
+  margin-bottom: 2em;
+}
+
+/* END SECTION RESUME AND FOURTH-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* START SECTION CONTACT AND CONTACT-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* line 716, ../sass/project.scss */
+section#contact-container {
+  /*background-color: $alt-gray-color;*/
+  background-image: url(../imgs/contact-us-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 725, ../sass/project.scss */
+div#contact-me {
+  height: 90em;
+  padding-top: 10%;
+}
+/* line 730, ../sass/project.scss */
+div#contact-me h2 {
+  text-align: center;
+  margin-bottom: 2%;
+  color: #414042;
+  font-size: 3em;
+  margin: 2% 0 2% 0;
+}
+
+/* line 742, ../sass/project.scss */
+form#get-in-touch {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 85em;
+}
+
+/* line 748, ../sass/project.scss */
+input, textarea {
+  margin-bottom: 1.5em;
+  display: block;
+  width: 100%;
+  max-width: 61em;
+  height: 100%;
+  padding: 1.5em;
+  font-size: 1.4em;
+  line-height: 1.42857143;
+  color: gray;
+  border: solid 1px #414042;
+  border-radius: .5em;
+  box-shadow: inset 0.2em 0.2em 0.4em #414042;
+  -webkit-box-shadow: inset 0.2em 0.2em 0.4em #414042;
+  -moz-box-shadow: inset 0.2em 0.2em 0.4em #414042;
+  -ms-box-shadow: inset 0.2em 0.2em 0.4em #414042;
+  box-sizing: border-box;
+}
+
+/* line 765, ../sass/project.scss */
+button {
+  padding: 1em 1em;
+  border: #f0555a;
+  border-radius: .3em;
+  font-size: 3em;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #f0555a;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: block;
+}
+
+/* END SECTION CONTACT AND CONTACT-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* START FOOTER STYLE
+-----------------------------------------------------------------------------*/
+/* line 788, ../sass/project.scss */
+footer.main-footer {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  box-sizing: border-box;
+  background-color: #82cec4;
+}
+/* line 794, ../sass/project.scss */
+footer.main-footer p {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 200;
+  color: #ffffff;
+}
+
+/*END FOOTER STYLE
+-----------------------------------------------------------------------------*/
+/* START NIPOST PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+/* line 808, ../sass/project.scss */
+section.nipost-first-container {
+  height: auto;
+  padding-top: 7%;
+}
+/* line 813, ../sass/project.scss */
+section.nipost-first-container h2 {
+  margin-bottom: 0.5em;
+}
+/* line 818, ../sass/project.scss */
+section.nipost-first-container > img {
+  width: 100%;
+  max-width: 100em;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10em;
+}
+/* line 826, ../sass/project.scss */
+section.nipost-first-container > p {
+  font-size: 1.9em;
+  line-height: 1.4em;
+  color: gray;
+  font-weight: 300;
+  width: 100%;
+  max-width: 45em;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+/* line 838, ../sass/project.scss */
+section.nipost-first-container h3 {
+  margin-bottom: 1em;
+}
+
+/* line 844, ../sass/project.scss */
+div.first-sketches {
+  margin-bottom: 3em;
+}
+/* line 847, ../sass/project.scss */
+div.first-sketches > p {
+  font-size: 2.5em;
+  color: gray;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 1em;
+}
+/* line 855, ../sass/project.scss */
+div.first-sketches > img {
+  width: 100%;
+  max-width: 100em;
+  margin: 0 auto;
+  display: block;
+}
+/* line 862, ../sass/project.scss */
+div.first-sketches iframe {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100em;
+  border: solid 1px #414042;
+  margin-bottom: 10em;
+  height: 593px;
+}
+
+/* line 877, ../sass/project.scss */
+div.second-sketches > p {
+  font-size: 2.5em;
+  color: gray;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 1em;
+}
+/* line 885, ../sass/project.scss */
+div.second-sketches > img {
+  width: 100%;
+  max-width: 100em;
+  margin: 0 auto;
+  display: block;
+  margin-top: 3em;
+}
+
+/* line 895, ../sass/project.scss */
+div.sketches {
+  margin-bottom: 3em;
+}
+/* line 898, ../sass/project.scss */
+div.sketches > p {
+  font-size: 2.5em;
+  color: gray;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 1em;
+}
+/* line 906, ../sass/project.scss */
+div.sketches > img {
+  width: 100%;
+  max-width: 100em;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 10em;
+}
+
+/* END NIPOST PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+/* START MEDIA QUERIES
+-----------------------------------------------------------------------------*/
+/* =Cell Phone Media Query Portrait
+-----------------------------------------------------------------------------*/
+@media only screen and (min-width: 320px) and (max-width: 740px) and (orientation: portrait) {
+  /* line 934, ../sass/project.scss */
+  section#home {
+    width: 100%;
+  }
+
+  /* line 938, ../sass/project.scss */
+  header.main-header {
+    width: 100%;
+    height: 17em;
+  }
+  /* line 942, ../sass/project.scss */
+  header.main-header img {
+    margin: 0 auto !important;
+    display: block;
+    width: 20em;
+    float: none;
+  }
+
+  /* line 950, ../sass/project.scss */
+  nav.main-nav {
+    float: none;
+    padding: 0 2em 0 2em;
+  }
+  /* line 954, ../sass/project.scss */
+  nav.main-nav ul {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 30em;
+  }
+
+  /* line 961, ../sass/project.scss */
+  div#projects {
+    margin: 0 auto;
+    border: solid 1px red;
+    height: 76em;
+    clear: both;
+    width: 100%;
+    padding: 10% 2% 0% 2%;
+    box-sizing: border-box;
+  }
+  /* line 970, ../sass/project.scss */
+  div#projects h2 {
+    text-align: center;
+    margin-bottom: 2%;
+    color: gray;
+    font-size: 3em;
+    margin: 2% 0 2% 0;
+  }
+
+  /* line 980, ../sass/project.scss */
+  div.port-item {
+    width: 48.4%;
+    margin-right: 2%;
+    height: 15em;
+    float: right;
+    margin-bottom: 2%;
+  }
+
+  /* line 990, ../sass/project.scss */
+  div.port-item-last {
+    margin-right: 0% !important;
+    border: solid 1px red;
+    width: 48.4%;
+    height: 15em;
+    float: right;
+    margin-bottom: 2%;
+  }
+
+  /* line 999, ../sass/project.scss */
+  div#margin-out {
+    margin-right: 0;
+  }
+
+  /* line 1003, ../sass/project.scss */
+  div#margin-outter {
+    margin-right: 0;
+  }
+}
+/* =iPad Media Query
+-----------------------------------------------------------------------------*/
+/* =Media Query for Laptops
+-----------------------------------------------------------------------------*/
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  /* START STYLING LAPTOP SIZE INDEX PAGE
+  -----------------------------------------------------------------------------*/
+  /* START STYLING LAPTOP SIZE SECTION HOME AND HOME-CONTAINER STYLES
+  -----------------------------------------------------------------------------*/
+  /* line 1052, ../sass/project.scss */
+  section.home-container {
+    background-image: url(../imgs/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 96em;
+    clear: both;
+    width: 100%;
+    height: 68em;
+  }
+
+  /* line 1063, ../sass/project.scss */
+  div#home {
+    max-width: 135em;
+    padding-top: 1em;
+    height: 68em;
+  }
+
+  /* line 1070, ../sass/project.scss */
+  div.home-contents {
+    height: 64.5em;
+    width: 100%;
+    max-width: 103em;
+    margin: 0 auto;
+    margin-top: 3%;
+  }
+  /* line 1077, ../sass/project.scss */
+  div.home-contents h1 {
+    width: 100%;
+    max-width: 22em;
+    color: #ffffff;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 200;
+    line-height: 1.5em;
+  }
+  /* line 1089, ../sass/project.scss */
+  div.home-contents img {
+    margin: 0 auto;
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    max-width: 70em;
+  }
+  /* line 1099, ../sass/project.scss */
+  div.home-contents a {
+    max-width: 4em;
+    height: 4em;
+    max-height: 100%;
+    width: 100%;
+    display: block;
+    position: relative;
+    top: 5%;
+    margin: 0 auto;
+    background-image: url(../imgs/dwn-btn-white.png);
+    background-size: 4em;
+    background-repeat: no-repeat;
+  }
+  /* line 1112, ../sass/project.scss */
+  div.home-contents a:hover, div.home-contents a:focus {
+    background-image: url(../imgs/dwn-btn.png);
+  }
+
+  /* END LAPTOP SIZE SECTION HOME AND HOME-CONTAINER STYLES
+  -----------------------------------------------------------------------------*/
+  /* START LAPTOP SIZE SECTION PROJECTS AND PROJECT-CONTAINER STYLES
+  -----------------------------------------------------------------------------*/
+  /* line 1127, ../sass/project.scss */
+  section.project-container {
+    height: 53em;
+    margin-bottom: 0;
+  }
+
+  /* line 1135, ../sass/project.scss */
+  div#projects {
+    height: 53em;
+    margin-top: 20em;
+  }
+
+  /* line 1146, ../sass/project.scss */
+  div.port-item {
+    width: 100%;
+    max-width: 31.99em;
+    height: 23.8em;
+    float: right;
+    overflow: hidden;
+  }
+  /* line 1154, ../sass/project.scss */
+  div.port-item a img {
+    width: 100%;
+    max-width: 34em;
+  }
+
+  /* line 1166, ../sass/project.scss */
+  div#nipost a img {
+    width: 100%;
+    max-width: 34em;
+  }
+
+  /* END LAPTOP SIZE SECTION PROJECTS AND SECOND-INDEX-PAGE-CONTAINER STYLES
+  -----------------------------------------------------------------------------*/
+  /* END LAPTOP SIZE STYLING INDEX PAGE
+  -----------------------------------------------------------------------------*/
+  /* START LAPTOP SECTION RESUME AND FOURTH-CONTAINER STYLES
+  -----------------------------------------------------------------------------*/
+  /* line 1183, ../sass/project.scss */
+  section#resume-fourth-container {
+    height: 226em;
+    clear: both;
+  }
+
+  /* line 1189, ../sass/project.scss */
+  div#resume {
+    max-width: 112.5em;
+    padding-top: 10%;
+    height: 226em;
+  }
+
+  /* line 1197, ../sass/project.scss */
+  div.dwn-pdf {
+    margin-bottom: 4em;
+  }
+  /* line 1201, ../sass/project.scss */
+  div.dwn-pdf a {
+    text-decoration: none;
+    padding: 1.9em 0 0 1.5em;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: left;
+    color: #ffffff;
+    background-color: #f0555a;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: block;
+    background-image: url(../imgs/pdf-btn-white.png);
+    background-repeat: no-repeat;
+    background-size: 2em;
+    background-position: 13em 1.1em;
+    height: 5em;
+  }
+  /* line 1218, ../sass/project.scss */
+  div.dwn-pdf a:hover, div.dwn-pdf a:focus {
+    background-image: url(../imgs/pdf-btn-red.png);
+  }
+
+  /* line 1226, ../sass/project.scss */
+  div.skill-info {
+    height: 153em;
+    background-color: #efefef;
+    padding: 6em 3.5em 0 3.5em;
+  }
+  /* line 1232, ../sass/project.scss */
+  div.skill-info h3 {
+    font-size: 2.5em;
+    color: #f0555a;
+    margin-bottom: 3em;
+    text-align: center;
+  }
+  /* line 1239, ../sass/project.scss */
+  div.skill-info h4 {
+    font-size: 2em;
+  }
+  /* line 1243, ../sass/project.scss */
+  div.skill-info hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-right: 1em;
+    border: solid 0.2em #f0555a;
+    width: 5.5em;
+  }
+  /* line 1252, ../sass/project.scss */
+  div.skill-info ul {
+    margin-bottom: 4em;
+  }
+
+  /* line 1262, ../sass/project.scss */
+  div.resume-info {
+    float: right;
+    max-width: 76em;
+    width: 100%;
+  }
+
+  /* line 1268, ../sass/project.scss */
+  div.education {
+    color: #414042;
+    background-color: #efefef;
+    padding: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    max-width: 69em;
+  }
+  /* line 1276, ../sass/project.scss */
+  div.education h3 {
+    font-size: 2.5em;
+    color: #f0555a;
+    margin-bottom: 1em;
+  }
+  /* line 1282, ../sass/project.scss */
+  div.education h4 {
+    font-size: 2em;
+    margin-bottom: .5em;
+  }
+  /* line 1286, ../sass/project.scss */
+  div.education h4 span {
+    font-weight: 300;
+  }
+  /* line 1291, ../sass/project.scss */
+  div.education p {
+    font-size: 1.7em;
+    line-height: 1.5em;
+    margin-bottom: 2em;
+  }
+  /* line 1297, ../sass/project.scss */
+  div.education ul {
+    margin-bottom: 2em;
+  }
+
+  /* END LAPTOP SECTION RESUME AND FOURTH-CONTAINER STYLES
+  -----------------------------------------------------------------------------*/
+  /* START LAPTOP ABOUT CONTAINER STYLES
+  -----------------------------------------------------------------------------*/
+  /* line 1313, ../sass/project.scss */
+  section.about-container {
+    height: 62em;
+  }
+
+  /* line 1318, ../sass/project.scss */
+  div#about {
+    height: 61em;
+    padding-top: 10%;
+    max-width: 110em;
+  }
+  /* line 1325, ../sass/project.scss */
+  div#about h2 {
+    color: #414042;
+  }
+  /* line 1330, ../sass/project.scss */
+  div#about p {
+    font-size: 2em;
+    line-height: 1.6em;
+    color: gray;
+    font-weight: 300;
+    width: 100%;
+    max-width: 37em;
+    float: left;
+    margin-top: 6%;
+  }
+  /* line 1340, ../sass/project.scss */
+  div#about p a {
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    color: #414042;
+    font-weight: bold;
+  }
+  /* line 1347, ../sass/project.scss */
+  div#about p a:hover, div#about p a:focus {
+    color: gray;
+  }
+
+  /* line 1354, ../sass/project.scss */
+  div.img-holder {
+    width: auto;
+    display: block;
+    float: right;
+  }
+  /* line 1359, ../sass/project.scss */
+  div.img-holder > img {
+    width: 100%;
+    max-width: 30em;
+    margin-bottom: 5%;
+  }
+
+  /* line 1367, ../sass/project.scss */
+  div.social {
+    width: 100%;
+    max-width: 4em;
+    height: 4em;
+    margin: 0 auto;
+  }
+
+  /* line 1374, ../sass/project.scss */
+  a.social-one {
+    background-image: url(../imgs/in.png);
+    background-size: 4em;
+  }
+  /* line 1379, ../sass/project.scss */
+  a.social-one:hover, a.social-one:focus {
+    background-image: url(../imgs/in-white.png);
+  }
+
+  /* END LAPTOP SECTION ABOUT AND ABOUT-CONTAINER STYLES
+  -----------------------------------------------------------------------------*/
+  /* START LAPTOP SECTION CONTACT AND CONTACT-CONTAINER STYLES
+  -----------------------------------------------------------------------------*/
+  /* line 1390, ../sass/project.scss */
+  section#contact-container {
+    /*background-color: $alt-gray-color;*/
+    background-image: url(../imgs/contact-us-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 62em;
+  }
+
+  /* line 1400, ../sass/project.scss */
+  div#contact-me {
+    height: 62em;
+    padding-top: 8.5%;
+  }
+  /* line 1405, ../sass/project.scss */
+  div#contact-me h2 {
+    text-align: center;
+    margin-bottom: 2%;
+    color: #414042;
+    font-size: 2.5em;
+    margin: 2% 0 2% 0;
+  }
+
+  /* line 1417, ../sass/project.scss */
+  form#get-in-touch {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 65em;
+  }
+
+  /* line 1423, ../sass/project.scss */
+  input, textarea {
+    margin-bottom: 1.5em;
+    display: block;
+    width: 100%;
+    max-width: 61em;
+    height: 100%;
+    padding: 1em;
+    font-size: 1.4em;
+    line-height: 1.42857143;
+    color: gray;
+    border: solid 1px #414042;
+    border-radius: .5em;
+    box-shadow: inset 0.2em 0.2em 0.4em #414042;
+    -webkit-box-shadow: inset 0.2em 0.2em 0.4em #414042;
+    -moz-box-shadow: inset 0.2em 0.2em 0.4em #414042;
+    -ms-box-shadow: inset 0.2em 0.2em 0.4em #414042;
+    box-sizing: border-box;
+  }
+
+  /* line 1440, ../sass/project.scss */
+  button {
+    padding: 0.8em 0.8em;
+    border: #f0555a;
+    border-radius: .3em;
+    font-size: 2em;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #f0555a;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: block;
+  }
+
+  /* END LAPTOP SECTION CONTACT AND CONTACT-CONTAINER STYLES
+  -----------------------------------------------------------------------------*/
+  /* START LAPTOP NIPOST PROJECT STYLES
+  -----------------------------------------------------------------------------*/
+  /* line 1464, ../sass/project.scss */
+  section.nipost-first-container {
+    height: auto;
+    padding-top: 10%;
+  }
+  /* line 1469, ../sass/project.scss */
+  section.nipost-first-container h2 {
+    margin-bottom: 0.5em;
+  }
+  /* line 1474, ../sass/project.scss */
+  section.nipost-first-container > img {
+    width: 100%;
+    max-width: 80em;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3em;
+  }
+  /* line 1482, ../sass/project.scss */
+  section.nipost-first-container > p {
+    font-size: 1.9em;
+    line-height: 1.4em;
+    color: gray;
+    font-weight: 300;
+    width: 100%;
+    max-width: 45em;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1em;
+  }
+  /* line 1494, ../sass/project.scss */
+  section.nipost-first-container h3 {
+    margin-bottom: 1em;
+  }
+
+  /* line 1500, ../sass/project.scss */
+  div.first-sketches {
+    margin-bottom: 3em;
+  }
+  /* line 1503, ../sass/project.scss */
+  div.first-sketches > p {
+    font-size: 2.5em;
+    color: gray;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  /* line 1511, ../sass/project.scss */
+  div.first-sketches > img {
+    width: 100%;
+    max-width: 80em;
+    margin: 0 auto;
+    display: block;
+  }
+  /* line 1518, ../sass/project.scss */
+  div.first-sketches iframe {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 80em;
+    border: solid 1px #414042;
+    margin-bottom: 10em;
+    height: 500px;
+  }
+
+  /* line 1530, ../sass/project.scss */
+  div.second-sketches {
+    max-height: 250em;
+    height: 100%;
+  }
+  /* line 1534, ../sass/project.scss */
+  div.second-sketches > p {
+    font-size: 2.5em;
+    color: gray;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 1em;
+  }
+  /* line 1542, ../sass/project.scss */
+  div.second-sketches > img {
+    width: 100%;
+    max-width: 80em;
+    margin: 0 auto;
+    display: block;
+    margin-top: 3em;
+  }
+
+  /* line 1552, ../sass/project.scss */
+  div.sketches {
+    margin-bottom: 3em;
+  }
+  /* line 1555, ../sass/project.scss */
+  div.sketches > p {
+    font-size: 2.5em;
+    color: gray;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  /* line 1563, ../sass/project.scss */
+  div.sketches > img {
+    width: 100%;
+    max-width: 80em;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* END LAPTOP NIPOST PROJECT STYLES
+  -----------------------------------------------------------------------------*/
+}
